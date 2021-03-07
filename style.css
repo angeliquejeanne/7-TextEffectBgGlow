@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: antiquewhite;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 80px;
+    cursor: pointer;
+}
+.anim {
+    animation: glow 1s ease-in-out infinite;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0px 0px 50px darkcyan;
+    }
+    25% {
+        text-shadow: 0px 0px 50px darkorchid;
+    }
+    50% {
+        text-shadow: 0px 0px 50px darkseagreen;
+    }
+    100% {
+        text-shadow: 0px 0px 50px deeppink;
+    }
+}
