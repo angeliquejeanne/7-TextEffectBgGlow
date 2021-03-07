@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: antiquewhite;
+    background: black;
     height:80vh;
     display: flex;
     justify-content: center;
@@ -10,6 +10,7 @@ body {
 .text {
     font-size: 80px;
     cursor: pointer;
+    color:lightgrey;
 }
 .animation {
     animation: glow 1s ease-in-out infinite;
