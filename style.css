@@ -11,7 +11,7 @@ body {
     font-size: 80px;
     cursor: pointer;
 }
-.anim {
+.animation {
     animation: glow 1s ease-in-out infinite;
 }
 @keyframes glow {
